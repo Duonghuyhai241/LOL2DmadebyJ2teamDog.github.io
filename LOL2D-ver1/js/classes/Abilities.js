@@ -63,7 +63,7 @@ class Q_Yasuo extends Ability {
             cooldownTime: 1000,
             range: 600,
             radius: 30,
-            speed: 14
+            speed: 21
         }
         super(_owner, data);
     }
@@ -80,7 +80,7 @@ class W_Jinx extends Ability {
             cooldownTime: 1500,
             range: 1000,
             radius: 10,
-            speed: 20
+            speed: 22
         }
         super(_owner, data);
     }
@@ -97,7 +97,7 @@ class R_Jinx extends Ability {
             cooldownTime: 2000,
             range: 5000,
             radius: 35,
-            speed: 21
+            speed: 29
         }
         super(_owner, data);
     }
@@ -114,7 +114,7 @@ class Q_Lux extends Ability {
             cooldownTime: 1000,
             range: 700,
             radius: 15,
-            speed: 19
+            speed: 25
         }
         super(_owner, data);
     }
@@ -131,7 +131,7 @@ class Q_Blit extends Ability {
             cooldownTime: 1200,
             range: 750,
             radius: 25,
-            speed: 19
+            speed: 26
         }
         super(_owner, data);
     }
