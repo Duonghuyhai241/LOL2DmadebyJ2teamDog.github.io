@@ -43,7 +43,7 @@ function newGame(config = {}) {
   urfMode = urf;
 
   // HackMode
-  hackerMode = hacked byHD;
+  hackerMode = hacked;
 
   // player and AI
   player = createCharacter(championName);
