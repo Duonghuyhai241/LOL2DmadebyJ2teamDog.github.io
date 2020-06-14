@@ -61,7 +61,7 @@ class Q_Yasuo extends Ability {
         let data = {
             damage: 100,
             cooldownTime: 1000,
-            range: 600,
+            range: 1500,
             radius: 30,
             speed: 21
         }
@@ -78,7 +78,7 @@ class W_Jinx extends Ability {
         let data = {
             damage: 100,
             cooldownTime: 1500,
-            range: 1000,
+            range: 1500,
             radius: 10,
             speed: 22
         }
@@ -95,7 +95,7 @@ class R_Jinx extends Ability {
         let data = {
             damage: 100,
             cooldownTime: 2000,
-            range: 5000,
+            range: 7000,
             radius: 35,
             speed: 29
         }
@@ -112,7 +112,7 @@ class Q_Lux extends Ability {
         let data = {
             damage: 100,
             cooldownTime: 1000,
-            range: 700,
+            range: 1500,
             radius: 15,
             speed: 25
         }
@@ -129,7 +129,7 @@ class Q_Blit extends Ability {
         let data = {
             damage: 100,
             cooldownTime: 1200,
-            range: 750,
+            range: 1234,
             radius: 25,
             speed: 26
         }
