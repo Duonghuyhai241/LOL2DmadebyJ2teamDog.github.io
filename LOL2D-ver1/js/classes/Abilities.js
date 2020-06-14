@@ -59,7 +59,7 @@ class Ability {
 class Q_Yasuo extends Ability {
     constructor(_owner) {
         let data = {
-            damage: 0,
+            damage: 100,
             cooldownTime: 1000,
             range: 600,
             radius: 30,
@@ -76,7 +76,7 @@ class Q_Yasuo extends Ability {
 class W_Jinx extends Ability {
     constructor(_owner) {
         let data = {
-            damage: 0,
+            damage: 100,
             cooldownTime: 1500,
             range: 1000,
             radius: 10,
@@ -93,7 +93,7 @@ class W_Jinx extends Ability {
 class R_Jinx extends Ability {
     constructor(_owner) {
         let data = {
-            damage: 0,
+            damage: 100,
             cooldownTime: 2000,
             range: 5000,
             radius: 35,
@@ -110,7 +110,7 @@ class R_Jinx extends Ability {
 class Q_Lux extends Ability {
     constructor(_owner) {
         let data = {
-            damage: 7,
+            damage: 100,
             cooldownTime: 1000,
             range: 700,
             radius: 15,
@@ -127,7 +127,7 @@ class Q_Lux extends Ability {
 class Q_Blit extends Ability {
     constructor(_owner) {
         let data = {
-            damage: 5,
+            damage: 100,
             cooldownTime: 1200,
             range: 750,
             radius: 25,
