@@ -479,7 +479,7 @@ class Yasuo extends Character {
   constructor(_name, _x, _y, _isEnemy) {
     let image = images.yasuo;
     let radius = 30;
-    let speed = 4;
+    let speed = 8;
     super(_name, image, _x, _y, radius, speed, _isEnemy);
 
     this.Qabi = new Q_Yasuo(this);
@@ -493,7 +493,7 @@ class Jinx extends Character {
   constructor(_name, _x, _y, _isEnemy) {
     let image = images.jinx;
     let radius = 30;
-    let speed = 4;
+    let speed = 8;
     super(_name, image, _x, _y, radius, speed, _isEnemy);
 
     this.Qabi = null; //new Q_Yasuo(this);
@@ -507,7 +507,7 @@ class Blitzcrank extends Character {
   constructor(_name, _x, _y, _isEnemy) {
     let image = images.blitzcrank;
     let radius = 30;
-    let speed = 5;
+    let speed = 8;
     super(_name, image, _x, _y, radius, speed, _isEnemy);
 
     this.Qabi = new Q_Blit(this);
@@ -521,7 +521,7 @@ class Lux extends Character {
   constructor(_name, _x, _y, _isEnemy) {
     let image = images.lux;
     let radius = 30;
-    let speed = 4.2;
+    let speed = 8;
     super(_name, image, _x, _y, radius, speed, _isEnemy);
 
     this.Qabi = new Q_Lux(this); //new Q_Blit(this);
@@ -535,7 +535,7 @@ class Yasuo_tt7 extends Character {
   constructor(_name, _x, _y, _isEnemy) {
     let image = images.yasuo;
     let radius = 30;
-    let speed = 4.2;
+    let speed = 9;
     super(_name, image, _x, _y, radius, speed, _isEnemy);
 
     this.Qabi = new Q_Lux(this);
