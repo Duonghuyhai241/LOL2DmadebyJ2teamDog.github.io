@@ -4,8 +4,8 @@ class Character {
     this.image = _image;
     this.position = createVector(_x, _y); // tọa độ nhân vật
     this.radius = _r; // bán kính vẽ nhân vật
-    this.maxHealth = 200;
-    this.health = 200; // lượng máu
+    this.maxHealth = 150;
+    this.health = 150; // lượng máu
     this.isEnermy = _isEnemy;
     this.color = _isEnemy ? "#f00" : "#0f0"; // là kẻ địch thì màu đỏ, ngược lại là xanh
     this.bgColor = "#0000";
