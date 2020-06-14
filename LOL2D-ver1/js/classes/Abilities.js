@@ -78,7 +78,7 @@ class W_Jinx extends Ability {
         let data = {
             damage: 100,
             cooldownTime: 1500,
-            range: 1500,
+            range: 1200,
             radius: 10,
             speed: 22
         }
@@ -95,7 +95,7 @@ class R_Jinx extends Ability {
         let data = {
             damage: 100,
             cooldownTime: 2000,
-            range: 7000,
+            range: 6000,
             radius: 35,
             speed: 29
         }
@@ -112,7 +112,7 @@ class Q_Lux extends Ability {
         let data = {
             damage: 100,
             cooldownTime: 1000,
-            range: 1500,
+            range: 1200,
             radius: 15,
             speed: 25
         }
