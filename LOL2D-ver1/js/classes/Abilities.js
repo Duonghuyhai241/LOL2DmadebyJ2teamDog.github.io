@@ -113,7 +113,7 @@ class Q_Lux extends Ability {
             damage: 15,
             cooldownTime: 1000,
             range: 1200,
-            radius: 22,
+            radius: 30,
             speed: 25
         }
         super(_owner, data);
