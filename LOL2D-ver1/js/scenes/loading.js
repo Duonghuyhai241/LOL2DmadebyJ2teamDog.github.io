@@ -12,9 +12,9 @@ function Loading() {
         if (!checkImages()) {
             // chieu thuc
             images.rocket = loadImage('images/jinx.png');
-            images.locxoay = loadImage('images/ys.png');
-            images.troiAnhSang = loadImage('images/lux.png');
-            images.banTay = loadImage('images/blit.png');
+            images.locxoay = loadImage('images/ys.jpg');
+            images.troiAnhSang = loadImage('images/lux.jpg');
+            images.banTay = loadImage('images/blit.jpg');
 
             // nhan vat
             images.yasuo = loadImage('images/character/yasuo.png');
