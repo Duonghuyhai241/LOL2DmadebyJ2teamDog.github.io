@@ -79,7 +79,7 @@ class W_Jinx extends Ability {
             damage: 10,
             cooldownTime: 1500,
             range: 1200,
-            radius: 10,
+            radius: 12,
             speed: 22
         }
         super(_owner, data);
@@ -96,7 +96,7 @@ class R_Jinx extends Ability {
             damage: 0,
             cooldownTime: 2000,
             range: 6000,
-            radius: 35,
+            radius: 43,
             speed: 29
         }
         super(_owner, data);
@@ -113,7 +113,7 @@ class Q_Lux extends Ability {
             damage: 15,
             cooldownTime: 1000,
             range: 1200,
-            radius: 15,
+            radius: 22,
             speed: 25
         }
         super(_owner, data);
