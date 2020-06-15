@@ -77,8 +77,7 @@ class BaoKiem_Yasuo extends Moveable_Ability_Object {
         this.damage += frameRate() / 240; // càng bay lâu damage càng cao
 
         push();
-        translate(this.position.x, this.position.y); // đưa bút vẽ tới vị trí vật thể
-        rotate(frameCount / 5); // xoáy
+        translate(this.position.x, this.position.y); // đưa bút vẽ tới vị trí vật th
 
         // var tintValue = map(this.travelDistance, 0, this.range, 0, 255);
         // tint(255, 255 - tintValue);
